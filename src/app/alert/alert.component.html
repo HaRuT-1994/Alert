@@ -1,0 +1,5 @@
+<div *ngIf="showWindow" [ngClass]="alert.type">
+    <p>{{alert.type}}: {{alert.message}}</p>
+    <p>{{message}}</p>
+    <button (click)="hideWindow()">ok</button>
+</div>

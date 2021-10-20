@@ -1,0 +1,5 @@
+<form action="">
+    <label for="message">Please input your text: </label><br>
+    <input id="message" placeholder="Enter your alert text.." type="text" #msg> <br>
+    <button (click)="sendMessage(msg.value)" type="button">Show</button>
+</form>
